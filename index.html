@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <!--
+
+        HTML EXERCISES
+
+        1) Create a title for the page
+        2) Create a heading
+        3) Create an ordered list
+        4) Create a table with 5 columns and 4 rows
+        5) Add an image to each second cell of every row
+        6) Add a anchor link for every image
+        7) Merge together 2 table cells
+        8) Divide the page using a horizontal line
+        9) Create a container with a nested paragraph and a nested unordered list
+        10) Create a footer with some information about the page creator 
+
+
+
+    -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Benchmark</title>
+        <link rel="stylesheet" href="./M1.D10 50ex.css" />
+        <head>
+    </head>
+    <body>
+        <main>
+        <h1>Welcome to my first Benchmark</h1>
+        <input type="button" value="Change title" onclick="myNewHeading()" />
+        <ol>
+            <h4>What I have learnt during the past two weeks:</h4>
+            <li>I had forgotten what it is to be mentally challenged and I am excited to be so.</li>
+            <li>A beginning is not easy.</li>
+            <li>There is so much to learn.</li>
+            <li>I have to get used to the thought one cannot remember everything and it is perfectly fine.</li>
+            <li>I am improving my planning process. Writing down what I need in words, before coding.</li>
+            <li>I try to manage the moments I would like to give up and continue.</li>
+        </ol>
+        <table>
+            <tr>
+                <th class="tableHead">Name</th>
+                <th class="tableHead">Image</th>
+                <th class="tableHead">Habitat</th>
+                <th class="tableHead">Endangered Status</th>
+                <th class="tableHead">Population</th>
+            </tr>
+            <tr>
+                <td>Indian elephant</td>
+                <td><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Elephas_maximus_%28Bandipur%29.jpg/1024px-Elephas_maximus_%28Bandipur%29.jpg" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Elephas_maximus_%28Bandipur%29.jpg/1024px-Elephas_maximus_%28Bandipur%29.jpg" alt="Indian elephant image"/></a></td>
+                <td class="description"><p>The Indian elephant is native to mainland Asia: India, Nepal, Bangladesh, Bhutan, Myanmar, Thailand, Malay Peninsula, Laos, China, Cambodia, and Vietnam. It is regionally extinct in Pakistan.[1] It inhabits grasslands, dry deciduous, moist deciduous, evergreen and semi-evergreen forests</p></td>
+                <td colspan="2">Endangered: approx. 45 000</td>
+                
+            </tr>
+            <tr>
+                <td>African lion</td>
+                <td><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/1024px-Lion_waiting_in_Namibia.jpg" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/1024px-Lion_waiting_in_Namibia.jpg" alt="African lion image"/></a></td>
+                <td class="description">The lion (Panthera leo) is a species in the family Felidae and a member of the genus Panthera. It has a muscular, deep-chested body, short, rounded head, round ears, and a hairy tuft at the end of its tail. It is sexually dimorphic; adult male lions have a prominent mane. </td>
+                <td colspan="2">Vulnerable: approx. 80 000</td>
+            </tr>
+            <tr>
+                <td>Emperor penguin</td>
+                <td><a href="http://3.bp.blogspot.com/-s_e8lMmLOYI/TpPXVy0NRcI/AAAAAAAABBQ/G5uZJtWBguY/s1600/Emperor+Penguin+2.jpg" target="_blank"><img src="http://3.bp.blogspot.com/-s_e8lMmLOYI/TpPXVy0NRcI/AAAAAAAABBQ/G5uZJtWBguY/s1600/Emperor+Penguin+2.jpg" alt="Emperor penguin image"/></a></td>
+                <td class="description">The emperor penguin (Aptenodytes forsteri) is the tallest and heaviest of all living penguin species and is endemic to Antarctica. The male and female are similar in plumage and size, reaching 100 cm (39 in) in length and weighing from 22 to 45 kg (49 to 99 lb). Feathers of the head and back are black and sharply delineated from the white belly, pale-yellow breast and bright-yellow ear patches</td>
+                <td colspan="2">Not threatened: approx. 600 000</td>
+            </tr>
+            <tr>
+                <td>Brown bear</td>
+                <td><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2010-kodiak-bear-1.jpg/1024px-2010-kodiak-bear-1.jpg" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2010-kodiak-bear-1.jpg/1024px-2010-kodiak-bear-1.jpg" alt="Brown bear image"/></a></td>
+                <td class="description">The brown bear (Ursus arctos) is a large bear species found across Eurasia and North America.[1][2] In North America, the populations of brown bears are called grizzly bears. It is one of the largest living terrestrial members of the order Carnivora, rivaled in size only by its closest relative, the polar bear (Ursus maritimus), which is much less variable in size and slightly bigger on average.</td>
+                <td colspan="2">Least concern: approx. 110 000</td>
+            </tr>
+            </table>
+            <hr>
+            <div id="container">
+                <p class="toHide">First paragraph</p>
+                <p class="toHide">Second paragraph</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet inventore fuga repellendus? Cupiditate cum ex sapiente odit recusandae repellendus non aspernatur dolorem eaque, in vitae alias placeat? Tempore, odit! Debitis.</p>
+                <ul>
+                    <li><a href="https://google.com">Click for Google</a></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+        <script type="text/javascript" src="./script.js"></script>
+    </body>
+</html>

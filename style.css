@@ -1,0 +1,67 @@
+/* CSS EXERCISES
+
+11) Give a maximum width to the body and center it in the page
+12) Set every h1 to be centered
+13) Change the color of each link in the page
+14) Create a class with a border
+15) Set table to have rounded corners
+16) Add margin between every paragraph
+17) Create a class which change font size and boldness
+18) Create a class to hide a content
+19) Add a green border to each td
+20) Add a dotted red border to each tr (note: tr does not accept a border property ;-) ) */
+
+img {
+    height: 120px;
+    display: inline-block;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: bisque
+}
+
+p {
+    margin: 1rem 2rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: rgb(63, 167, 49);
+}
+
+table {
+    border: solid rgb(165, 169, 184) 3px;
+    border-radius: 8px;
+    border-collapse: collapse;
+}
+
+/* td {
+    border: solid rgb(49, 175, 49) 1px;
+} */
+
+tr {
+    border: solid 1px rgb(218, 55, 55);
+}
+
+.tableHead {
+    border: solid 1px rgb(165, 169, 184);
+}
+
+.description {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.toHide {
+    display: none;
+}
+
+.test {
+    font-size: large;
+}
